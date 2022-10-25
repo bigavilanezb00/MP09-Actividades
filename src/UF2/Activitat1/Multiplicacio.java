@@ -1,4 +1,4 @@
-package UF2;
+package UF2.Activitat1;
 
 public class Multiplicacio {
     private int num1;

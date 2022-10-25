@@ -1,8 +1,7 @@
-package UF2;
+package UF2.Activitat1;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Future;
 
 public class Main {
     public static final int numVegades = 10;
