@@ -1,6 +1,8 @@
 package UF2.Activitat2;
 
-public class Alumne {
+import java.util.concurrent.Callable;
+
+public class Alumne implements Callable<Integer> {
     private String Nom;
 
     public Alumne(String nom) {
@@ -26,5 +28,10 @@ public class Alumne {
 
     public void setNom(String nom) {
         Nom = nom;
+    }
+
+    @Override
+    public Integer call() throws Exception {
+        return Examinar();
     }
 }
